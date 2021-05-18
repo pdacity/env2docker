@@ -3,6 +3,9 @@
 
 Demo for Stackoverflow Question http://stackoverflow.com/questions/41747843/pass-environment-variables-from-docker-compose-to-container-at-build-stage
 
-`docker-compose build`
-`docker-compose up`
+Прокси 10.10.10.10:3128 необходимо передать внутрь контейнера для сборки, используйте магию *ENV* - *ARG*
+
+```docker-compose build```
+
+```docker-compose up```
 
